@@ -76,7 +76,7 @@
     return [GPXType latitude:_maxLatitudeValue];
 }
 
-- (void)setMaxlat:(CGFloat)maxLatitude
+- (void)setMaxLatitude:(CGFloat)maxLatitude
 {
     _maxLatitudeValue = [GPXType valueForLatitude:maxLatitude];
 }
@@ -86,7 +86,7 @@
     return [GPXType longitude:_maxLongitudeValue];
 }
 
-- (void)setMaxlon:(CGFloat)maxLongitude
+- (void)setMaxLongitude:(CGFloat)maxLongitude
 {
     _maxLongitudeValue = [GPXType valueForLongitude:maxLongitude];
 }
