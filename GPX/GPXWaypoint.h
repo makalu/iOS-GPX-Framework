@@ -6,6 +6,8 @@
 //  Copyright (c) 2012 NextBusinessSystem Co., Ltd. All rights reserved.
 //
 
+#import "GPXType.h"
+
 @class GPXElement;
 @class GPXExtensions;
 @class GPXLink;
@@ -61,7 +63,7 @@
 @property (strong, nonatomic) NSString *type;
 
 /** Type of GPX fix. */
-@property (nonatomic, assign) NSInteger fix;
+@property (nonatomic, assign) GPXFix fix;
 
 /** Number of satellites used to calculate the GPX fix. */
 @property (nonatomic, assign) NSInteger satellites;

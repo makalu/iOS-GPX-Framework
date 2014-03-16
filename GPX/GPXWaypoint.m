@@ -179,12 +179,12 @@
     }
 }
 
-- (NSInteger)fix
+- (GPXFix)fix
 {
     return [GPXType fix:_fixValue];
 }
 
-- (void)setFix:(NSInteger)fix
+- (void)setFix:(GPXFix)fix
 {
     _fixValue = [GPXType valueForFix:fix];
 }
