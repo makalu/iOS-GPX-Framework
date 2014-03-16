@@ -48,7 +48,6 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		131D1C371532A2AF007479F1 /* mystic_basin_trail.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = mystic_basin_trail.gpx; path = GPXTests/mystic_basin_trail.gpx; sourceTree = SOURCE_ROOT; };
 		13D46EB3152ECF2400C9A168 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		13D46EB7152ECF2400C9A168 /* GPX-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GPX-Info.plist"; sourceTree = "<group>"; };
 		13D46EB9152ECF2400C9A168 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
@@ -172,7 +171,6 @@
 			isa = PBXGroup;
 			children = (
 				4E52243418D4314300894ECD /* metadata.gpx */,
-				131D1C371532A2AF007479F1 /* mystic_basin_trail.gpx */,
 				13D46EB7152ECF2400C9A168 /* GPX-Info.plist */,
 				13D46EB8152ECF2400C9A168 /* InfoPlist.strings */,
 				13D46EBB152ECF2400C9A168 /* GPX-Prefix.pch */,

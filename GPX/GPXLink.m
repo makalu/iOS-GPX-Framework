@@ -75,4 +75,8 @@
     [self gpx:gpx addPropertyForValue:_mimetype tagName:@"type" indentationLevel:indentationLevel];
 }
 
+- (NSString*)description
+{
+    return [NSString stringWithFormat:@"text: %@ mimetype: %@ href: %@", self.text, self.mimetype, self.href];
+}
 @end
